@@ -88,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/santoni/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/santoni/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/xiaomi/santoni/proprietary/lib/libsigchain.so:system/lib/libsigchain.so \
     vendor/xiaomi/santoni/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/santoni/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/santoni/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
@@ -102,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/xiaomi/santoni/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
     vendor/xiaomi/santoni/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
-    vendor/xiaomi/santoni/proprietary/lib64/libsigchain.so:system/lib64/libsigchain.so \
     vendor/xiaomi/santoni/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
