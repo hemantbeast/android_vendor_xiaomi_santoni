@@ -925,6 +925,7 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     CNEService \
+    com.qualcomm.location \
     qcrilmsgtunnel \
     TimeService \
     colorservice \
