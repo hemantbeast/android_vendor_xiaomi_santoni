@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/bin/gx_fpd:system/bin/gx_fpd \
+    vendor/xiaomi/santoni/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/xiaomi/santoni/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
@@ -98,10 +99,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml:system/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml \
     vendor/xiaomi/santoni/proprietary/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml:system/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml \
     vendor/xiaomi/santoni/proprietary/etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml:system/etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml \
+    vendor/xiaomi/santoni/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/xiaomi/santoni/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/xiaomi/santoni/proprietary/lib/hw/fingerprint.searchf.so:system/lib/hw/fingerprint.searchf.so \
     vendor/xiaomi/santoni/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/santoni/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
+    vendor/xiaomi/santoni/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/xiaomi/santoni/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/xiaomi/santoni/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/xiaomi/santoni/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/santoni/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/santoni/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/santoni/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
